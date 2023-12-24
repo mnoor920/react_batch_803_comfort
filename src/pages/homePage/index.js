@@ -1,15 +1,16 @@
 import React from 'react'
+import './style.css'
+import HeroSection from './features/heroSection'
+import OurServices from './features/ourServices'
 
 const HomePage = () => {
 
 
     return (
-        <div>HomePage
-
-            <h3>
-                React JS & Node Js Batch 803
-            </h3>
-        </div>
+        <>
+            <HeroSection />
+            <OurServices />
+        </>
     )
 
 
