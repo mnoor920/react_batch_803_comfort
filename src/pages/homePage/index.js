@@ -2,6 +2,7 @@ import React from 'react'
 import './style.css'
 import HeroSection from './features/heroSection'
 import OurServices from './features/ourServices'
+import OurClient from './features/ourClient'
 
 const HomePage = () => {
 
@@ -10,6 +11,7 @@ const HomePage = () => {
         <>
             <HeroSection />
             <OurServices />
+            <OurClient />
         </>
     )
 

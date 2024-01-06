@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from '../../assets/images/logo/logo.svg'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
     return (
@@ -11,13 +12,22 @@ const Header = () => {
                 <nav>
                     <ul>
                         <li>
-                            Home
+                            <Link to="/" >
+                                Home
+                            </Link>
+
                         </li>
                         <li>
-                            Service
+                            <Link to="/about-us" >
+                                Service
+                            </Link>
+
                         </li>
                         <li>
-                            Contact
+                            <Link to="/contact-us" >
+                                Contact
+                            </Link>
+
                         </li>
                         <li className="header_btn">
                             +8980003809343

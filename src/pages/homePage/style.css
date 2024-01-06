@@ -85,3 +85,70 @@
 .service_card:hover .over_lay button {
     display: block;
 }
+
+.our_client {
+    padding: 50px 0px;
+}
+
+.our_client .heade_content {
+    text-align: center;
+}
+
+.our_client .heade_content p {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
+
+.client_card_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.client_card_grid .client_card {
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.10);
+    padding: 20px;
+}
+
+.client_card_grid .client_card .lower_content p {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.client_card_grid .client_card .outer_content {
+    display: flex;
+    align-items: center;
+}
+
+.client_card_grid .client_card .outer_content .img img {
+    width: 80px;
+    margin-right: 1rem;
+}
+
+.client_card_grid .client_card .outer_content .img_content {
+    width: 100%;
+}
+
+.client_card_grid .client_card .outer_content .img_content h2 {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.client_card_grid .client_card .outer_content .img_content .rating {
+    display: flex;
+    justify-content: space-between;
+}
