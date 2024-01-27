@@ -18,6 +18,11 @@ const Footer = () => {
                         <li>
                             info@homecomfort.com
                         </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/muhammad-noor-a305bb170/"  >
+                                Linkiden
+                            </a>
+                        </li>
                     </ul>
                     <div className="news_letter">
                         <input type="text" placeholder="Enter Email" />
